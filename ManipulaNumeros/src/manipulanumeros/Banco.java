@@ -10,6 +10,9 @@ class Banco {
         double c;
         System.out.println("Insira o seu saldo médio");
         n = ManipulaNumeros.ler.nextDouble(); //camel case
+        //String S;
+        //Switch(var7200)
+        //....
         switch((int)n/200) { //switch so recebe inteiros ou caracteres
             case 0:
                 //0-199
@@ -29,6 +32,8 @@ class Banco {
                 //+601
                 c = n*0.40;
                 System.out.println("O seu saldo é "+n+"O seu crédito é"+c);
+                
+              
     
         
     }
