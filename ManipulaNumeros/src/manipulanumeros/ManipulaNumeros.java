@@ -18,6 +18,8 @@ public class ManipulaNumeros {
             System.out.println("3 - Soma ímpares multiplica pares");
             System.out.println("4 - Troca valores entre variaveis");
             System.out.println("5 - Compara números");
+            System.out.println("6 - Calcular média de aluno");
+            
             
             System.out.println("0 - Sair");
             System.out.println("Seleccione a opção pretendida");
@@ -42,6 +44,9 @@ public class ManipulaNumeros {
                 case 5:
                     lerValores("Insira um valor", "Insira outro valor");
                     ComparaNumero.comparar2Valores(x,y);
+                    break;
+                case 6:
+                    MediaAluno.registaNotas();
                     break;
                 
                 default: System.out.println("Insira opção válida");
